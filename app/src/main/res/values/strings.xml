@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_customers">No Customers Yet</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkout">Checkout</string>
+    <string name="clear">Clear</string>
+    <string name="paypal">PayPal</string>
+    <string name="credit">Credit</string>
+    <string name="cash">Cash</string>
+</resources>
