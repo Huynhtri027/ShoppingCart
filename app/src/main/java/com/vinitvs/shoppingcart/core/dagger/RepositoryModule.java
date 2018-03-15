@@ -1,5 +1,6 @@
 package com.vinitvs.shoppingcart.core.dagger;
 
+import com.vinitvs.shoppingcart.ui.customerList.CustomerListRepository;
 import com.vinitvs.shoppingcart.ui.productList.ProductListRepository;
 
 import javax.inject.Singleton;
@@ -19,5 +20,11 @@ public class RepositoryModule {
     @Singleton
     public ProductListRepository provideProductList() {
         return new ProductListRepository();
+    }
+
+    @Singleton
+    @Provides
+    public CustomerListRepository provideCustomerRepository(){
+        return new CustomerListRepository();
     }
 }

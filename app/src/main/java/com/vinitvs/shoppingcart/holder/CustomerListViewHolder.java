@@ -7,21 +7,23 @@ import android.widget.TextView;
 
 import com.vinitvs.shoppingcart.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Created by Vinit on 3/3/2018.
  */
 
 public class CustomerListViewHolder extends RecyclerView.ViewHolder {
 
-    ImageView customer_img;
-    TextView customer_name;
-    TextView customer_email;
+    public @BindView(R.id.img_customer) ImageView customerImg ;
+    public @BindView(R.id.txt_customer_name) TextView customerName ;
+    public @BindView(R.id.txt_customer_email) TextView customerEmail ;
+
 
     public CustomerListViewHolder(View itemView) {
         super(itemView);
-        customer_img = itemView.findViewById(R.id.img_customer);
-        customer_name = itemView.findViewById(R.id.txt_customer_name);
-        customer_email = itemView.findViewById(R.id.txt_customer_email);
+        ButterKnife.bind(this, itemView);
     }
 
 }

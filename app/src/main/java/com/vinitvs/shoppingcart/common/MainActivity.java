@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addTab(tab1);
 
         TabLayout.Tab tab2 = tabLayout.newTab();
-        tab2.setText("Customers");
+        tab2.setText("Customer");
         tab2.setIcon(R.drawable.pear);
         tabLayout.addTab(tab2);
 

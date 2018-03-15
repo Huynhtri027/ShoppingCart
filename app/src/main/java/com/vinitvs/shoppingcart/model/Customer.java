@@ -4,7 +4,7 @@ package com.vinitvs.shoppingcart.model;
  * Created by Vinit on 2/28/2018.
  */
 
-public class Customers {
+public class Customer {
 
 
     private long id;
@@ -21,7 +21,7 @@ public class Customers {
     private long dateAdded;
     private long dateOfLastTransaction;
 
-    public Customers(long id, String customerName, String emailAddress, String phoneNumber, String profileImagePath, String streetAddress, String streetAddress2, String city, String state, String postalCode, String note, long dateAdded, long dateOfLastTransaction) {
+    public Customer() {
         this.id = id;
         this.customerName = customerName;
         this.emailAddress = emailAddress;
